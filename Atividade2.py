@@ -2,7 +2,10 @@ nome_produto = 'Camiseta'
 preco_original = 50.00
 porcentagem_desconto = 20
 
+#valor do desconto
 valor_desconto = preco_original * (20/100)
+
+#valor final com desconto
 valor_final = preco_original - valor_desconto
 
 print(f'Preço Original: R${preco_original:.2f}')
